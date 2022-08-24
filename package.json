@@ -1,0 +1,10 @@
+{
+"scripts": {
+    "watch": "imba build -wSM --clean --base /imba-ghpages-template index.html",
+    "build": "imba build -SM --clean --base /imba-ghpages-template index.html",
+    "start": "imba serve index.html"
+},
+  "dependencies": {
+    "imba": "^2.0.0-alpha.215"
+  }
+}
